@@ -1,0 +1,586 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- External CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Bootstrap icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+
+<title>My PortFolio</title>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./img/logo2.png" alt="" style="max-height: 50px;">
+      </a>
+
+      <!-- <a class="navbar-brand" href="#">My <span style="color: chartreuse;">PortFolio</span></a> -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="bi bi-border-style"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal1">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal2">Social Media</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal3">Gallary</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal5">Contact</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!--Home Setion-->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container d-flex flex-column align-items-center" >
+      <h1 class="animate-charcter home-h1">Gadhethariya Raj </h1>
+      <h2 class="home-h2">I'm a professional Digital Maarketing</h2>
+    
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="icons">
+      <a href="#"><i class="bi bi-facebook social-icon"></i></a>
+      <a href="#"><i class="bi bi-instagram social-icon"></i></a>
+      <a href="#"><i class="bi bi-whatsapp social-icon"></i></a>
+      <a href="#"><i class="bi bi-linkedin social-icon"></i></a>
+      <p class="company-name">
+        Raj Patel &copy; 2022, ALL Rights Reserved
+      </p>
+    </div>
+  </footer>
+  <!-- Modal About Us -->
+  <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen ">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body bg-dark">
+          <div class="container about ">
+            <div class="header">
+              <p>Get to know me</p>
+              <h1>About Me</h1>
+            </div>
+            <div class="row p-2 mt-5">
+              
+              <div class="col-md-6 about-img">
+              
+                   <img src="./img/imgabout.jpg" class="img-fluid"  width="900" height="100"> 
+           
+               
+              </div>
+              <div class="col-md-6">
+                <div class="info">
+                  <p class="text-white about-info">
+                    I am <span style="color: red;font-weight: 600;">Raj Patel </span> Rajkot, Gujarat the colourful
+                    state of India. Gujarat is famous for its food through
+                    worldwide but present Gujarat is also famous for its digital
+                    marketing skills and upcoming talents. Some years ago if I had
+                    said that I wanted to opt digital marketing as a career, I am
+                    sure no one would have supported me in the decision. But today
+                    is the wave of digitalisation. Many young talents are now taking
+                    s as a full time profession. I am happy to see this change,
+                    it is bringing India towards development.
+                  </p>
+                  <p class="text-white">
+                    I am currently working at Soarbeam digital.
+                    It is a digital marketing company providing place to
+                    various brands, influencers and learners at one place.
+                    People working here are highly educated in their field so
+                    it is work plus leaning opportunity for me.
+                  </p>
+                  <p class="text-white">
+                    One thing about digital marketing is that it requires quality
+                    content and consistency.
+                    I have been regularly trying to give my best on various social
+                    media platforms like Facebook, Twitter and Instagram. My SEO Training was started in March 2020,
+                    before that I was self learning on the subject.
+                    This helped in taking my content creation work to next levels.
+                    Once we get the proper knowledge their application becomes
+                    very easy. Therefore I always ask everyone to get into the
+                    ocean of knowledge and keep learning.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-5 info2">
+              <h4 class="text-white">My current working area is PPC ( Pay Per Click ) Under the following platforms -
+              </h4>
+              <div class="col-md-6">
+                <p><i class="bi bi-arrow-return-right"> </i> Google Ads</p>
+                <p><i class="bi bi-arrow-return-right"> </i> Microsoft Ads (aka Bing Ads)</p>
+                <p><i class="bi bi-arrow-return-right"> </i> Facebook Ads</p>
+                <p><i class="bi bi-arrow-return-right"> </i> Instagram Ads</p>
+                <p><i class="bi bi-arrow-return-right"> </i> Linkedin Ads</p>
+
+              </div>
+              <div class="col-md-6">
+                <p><i class="bi bi-arrow-return-right"> </i> AdRoll</p>
+                <p><i class="bi bi-arrow-return-right"> </i> Twitter Ads</p>
+                <p><i class="bi bi-arrow-return-right"> </i> Bidvertiser</p>
+                <p><i class="bi bi-arrow-return-right"> </i> RevContent</p>
+                <p><i class="bi bi-arrow-return-right"> </i> BuySellAds</p>
+
+              </div>
+              <p>I am working hard to bring efficiency in my operations. Also I look forward to work in ASO. (
+                Application Store Optimisation ) in the nearby future.</p>
+
+            </div>
+            <div class="header mt-4">
+              <h1>What I Do</h1>
+            </div>
+            <div class="row mt-5 about">
+              <div class="col-md-6">
+                <h4> <i class="bi bi-arrow-repeat"> </i> Social Media Optimization</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, ratione!Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Rerum, ratione!</p>
+              </div>
+              <div class="col-md-6">
+                <h4> <i class="bi bi-arrow-repeat"> </i> SEO</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, ratione!Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Rerum, ratione!</p>
+              </div>
+              <div class="col-md-6">
+                <h4> <i class="bi bi-currency-dollar"> </i> PPC</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, ratione! Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Rerum, ratione!</p>
+              </div>
+              <div class="col-md-6">
+                <h4> <i class="bi  bi-pencil-square"> </i> Content Writing</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, ratione!Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Rerum, ratione!</p>
+              </div>
+            </div>
+          </div>
+          <div class="container mt-5">
+            <div class="header">
+              <h1>Client</h1>
+            </div>
+            <div class="owl-carousel owl-theme mt-5">
+              <div class="item">
+                <a href="https://www.indibeam.com/">
+                  <img src="./img/client1.png" class="card-img-top" alt="Fissure in Sandstone"/>
+                </a>
+              </div>
+              <div class="item">
+               <a href="https://www.enspiredevice.com/">
+                <img src="./img/client5.png" class="card-img-top" alt="Fissure in Sandstone"/>
+               </a>
+              </div>
+              <div class="item">
+                <a href="https://www.giffywalls.com/">
+                  <img src="./img/client4.png" class="card-img-top" alt="Fissure in Sandstone"/>
+                </a>
+              </div>
+              <div class="item">
+               <a href="https://www.cryptolka.com/">
+                <img src="./img/client3.png" class="card-img-top" alt="Fissure in Sandstone"/>
+               </a>   
+              </div>
+              <div class="item">
+                <a href="https://www.soarbeam.com">
+                  <img src="./img/client2.png" class="card-img-top" alt="Fissure in Sandstone"/>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Resume -->
+  <div class="modal fade " id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen ">
+      <div class="modal-content">
+        <div class="modal-header">
+
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body bg-dark">
+          <div class="container resume">
+            <div class="header">
+              <p>Get to know me</p>
+              <h1>Resume</h1>
+            </div>
+            <div class="row p-2 mt-5">
+              <div class="col-md-6">
+                <h3 class="text-white">Gadhethariya Raj</h3>
+                <i class="text-white h5">Digital Marketer</i>
+              </div>
+              <div class="col-md-6">
+                <p>Email:rajgadhethariya22@gmail.com</p>
+                <p>Phone No:+91 7069866925 </p>
+              </div>
+             
+            </div><hr/>
+            <div class="row">
+              <div class="col-md-6">
+                <h3>About Me</h3>
+              </div>
+              <div class="col-md-6">
+                <p>Hello, I am Raj, a Digital Marketer. My Focuse ASO and SEO
+                  Project, but I am also experienced in PPC and Social Media Optimization
+                </p>
+              </div>
+            </div><hr/>
+            <div class="row">
+              <div class="col-md-6">
+                <h3>Education</h3>
+              </div>
+              <div class="col-md-6 l-height">
+                <p>Diploma Engineering </p>
+                <p>Darshan Univercity (2016)</p><hr>
+                <p>Bachelor in Engineering</p>
+                <p>Amiraj College (2020)</p><hr>
+                <p>Corporate Training </p>
+                <p>Soarbeam Digital (2020)</p>
+              </div>
+            </div><hr/>
+            <div class="row">
+              <div class="col-md-6">
+                <h3>Experience</h3>
+              </div>
+              <div class="col-md-6 l-height">
+                <p>S.E.O </p>
+                <p>INDIBEAM | NOV 2020</p><hr>
+                <p>Senior Seo Executive </p>
+                <p>Soarbeam Digital | Oct 2021 - Present</p><hr>
+                <p>A.S.O</p>
+                <p>indibeam | Jan 2022 - Present</p>
+              </div>
+              
+            </div><hr/>
+            <div class="row">
+              <div class="col-md-6">
+                <h3>Skills</h3>
+              </div>
+              <div class="col-md-6 l-height">
+                <div class="progress " style="height: 22px;">
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                    Social Media Optimaization</div>
+                </div>
+                <div class="progress mt-3" style="height: 22px;">
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                    Search Enginee Optimaization</div>
+                </div>
+                <div class="progress mt-3" style="height: 22px;">
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                    Creativity</div>
+                </div>
+                <div class="progress mt-3" style="height: 22px;">
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                    PPC</div>
+                </div>
+                <div class="progress mt-3" style="height: 22px;">
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                    ASO</div>
+                </div>
+              </div>
+              
+            </div><hr>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal social media -->
+  <div class="modal fade " id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen ">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body bg-dark">
+          <div class="container">
+            <div class="header">
+              <p>Get to know me</p>
+              <h1 data-aos="zoom-in">Social Media</h1>
+            </div>
+           
+            <div class="row row-cols-1 row-cols-md-4 g-4 social mt-5">
+              <div class="col ">
+                <div class="social-page">
+                  <a href=" https://www.facebook.com/people/Raj-Gadhethariya/100011487140755/" class="hover-bi">
+                    <i class="bi bi-facebook social-icon" style="color:#4267B2;"></i>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <p class="card-text text-center">Facebook</p>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="social-page">
+                  <a href="https://youtube.com/channel/UCSa2FHDJ_yprowePkTXPLiw" class="hover-bi">
+                    <i class="bi bi-youtube social-icon " style="color:#FF0000;"></i>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <p class="card-text text-center">Youtube</p>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="social-page">
+                  <a href="https://instagram.com/mr_r.k_1401?utm_medium=copy_link" class="hover-bi">
+                    <i class="bi bi-instagram social-icon" style="color:#bc2a8d;"></i>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <p class="card-text text-center">Instagram</p>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="social-page">
+                  <a href="#" class="hover-bi">
+                    <i class="bi bi-twitter social-icon" style="color:#00acee;"></i>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <p class="card-text text-center">Twitter</p>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="social-page">
+                  <a href="https://pin.it/QdlEK4w" class="hover-bi">
+                    <i class="bi bi-pinterest social-icon" style="color:#c8232c;"></i>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <p class="card-text text-center">Printerest</p>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="social-page">
+                  <a href="https://www.linkedin.com/in/raj-patel-3325b416a" class="hover-bi">
+                    <i class="bi bi-linkedin  social-icon" style="color: #0072b1;"></i>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <p class="card-text text-center">Linkedin</p>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="social-page">
+                  <a href="#" class="hover-bi">
+                    <i class="bi bi-whatsapp  social-icon" style="color:	#25D366;"></i>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <p class="card-text text-center">Whatsapp</p>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="social-page">
+                  <a href=" https://www.quora.com/profile/Raj-Patel-3052?" class="hover-bi">
+                    <i class="bi bi-quora  social-icon" style="color:#b92b27;"></i>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <p class="card-text text-center">Quora</p>
+                </div>
+              </div>
+
+
+              <div class="col">
+                <div class="social-page">
+                  <a href="https://www.snapchat.com/add/rajgadhethariya?share_id=Ok7UAdmHXrc&locale=en-US"
+                    class="hover-bi">
+                    <i class="bi bi-snapchat  social-icon" style="color: #FFFC00;"></i>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <p class="card-text text-center">Snapchat</p>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="social-page">
+                  <a href="https://join.skype.com/invite/unda42oT4fhI" class="hover-bi">
+                    <i class="bi bi-skype  social-icon" style="color: #00aff0;"></i>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <p class="card-text text-center">Skype</p>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="social-page">
+                  <a href="#" class="hover-bi">
+                    <i class="bi bi-telegram  social-icon" style="color: #229ED9;"></i>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <p class="card-text text-center">Telegram</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Gallary -->
+  <div class="modal fade " id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen ">
+      <div class="modal-content">
+        <div class="modal-header">
+
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body bg-dark">
+          <div class="container ">
+            <div class="header">
+              <p>Get to know me</p>
+              <h1>Gallary</h1>
+            </div>
+            <!-- Gallery -->
+            <div class="row mt-4">
+              <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <img src="./img/my1.jpeg" class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
+
+                <img src="./img/my3.jpeg" class="w-100 shadow-1-strong rounded mb-4" alt="Wintry Mountain Landscape" />
+
+              </div>
+
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <img src="./img/my2.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Mountains in the Clouds" />
+
+                <img src="./img/my4.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
+                <img src="./img/my8.jpeg" class="w-100 shadow-1-strong rounded mb-4" alt="Yosemite National Park" />
+              </div>
+
+
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <img src="./img/my6.jpeg" class="w-100 shadow-1-strong rounded mb-4" alt="Waves at Sea" />
+
+                <img src="./img/my5.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Yosemite National Park" />
+                <img src="./img/my7.JPG" class="w-100 shadow-1-strong rounded mb-4" alt="Yosemite National Park" />
+               
+              </div>
+
+             
+            </div>
+          
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+ 
+  <!-- Modal Contact -->
+  <div class="modal fade " id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen ">
+      <div class="modal-content">
+        <div class="modal-header">
+
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body bg-dark">
+          <div class="container Contact ">
+            <div class="header">
+              <p>Get to know me</p>
+              <h1>Contact</h1><br><br>
+              <p>Always available for freelance work if the right project comes along, Feel free to contact me!</p>
+            </div>
+            <div class="row mt-5 ">
+              <div class="col-md-6">
+                <p><i class="bi bi-person-bounding-box icon-color"></i> Name<br>Gadhethariya Raj Kanubhai </p><hr>
+                <p><i class="bi bi-envelope-fill  icon-color"></i> Email<br>  rajgadhethariya22@gmail.com </p><hr>
+                <p><i class="bi bi-telephone-forward-fill icon-color"></i> Call Me<br>+91 7069866925 </p><hr>
+                <p><i class="bi bi-geo-alt-fill icon-color"></i> Address<br>Krishna Park,St Number-1,150 Ft Ring Road,Mavdi
+                  Chokdi Rajkot Gujrat 360004.</p><hr>
+              </div>
+            
+              <div class="col-md-6">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.7535349406967!2d70.79374511490643!3d22.325159085310624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959c9c1f92e582b%3A0xd55442691f4094ab!2sKrishna%20Park!5e0!3m2!1sen!2sin!4v1650173060842!5m2!1sen!2sin" 
+                width="100%" height="365" style="border-radius:5px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <!--owlCarousel-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: true,
+      responsive: {
+        0: {
+          items: 3
+        },
+        600: {
+          items: 3
+        },
+        1000: {
+          items: 5
+        }
+      }
+    })
+  </script>
+</body>
+
+</html>
